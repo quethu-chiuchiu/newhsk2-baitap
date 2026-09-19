@@ -189,6 +189,17 @@
     </section>
   </section>
 
+  <!-- ============ TỪ VỰNG (Vocabulary game) ============ -->
+  <section class="tab-section" data-tab="vocab">
+    <section class="card">
+      <div class="section-head">
+        <div class="icon">📚</div>
+        <h2>Từ vựng <span class="zh">生词 Vocabulary</span></h2>
+      </div>
+      <div id="vocab-game"></div>
+    </section>
+  </section>
+
   <footer class="lesson-footer">
     Tài liệu tham khảo từ 《新HSK教程2 学练手册》— New HSK Course 2 Workbook.
   </footer>
@@ -375,6 +386,25 @@ window.HSK_PAGE.writingHanzi = {
     };
   }
 };
+
+/* ---------------- TỪ VỰNG (game "Đố vui tốc độ") ---------------- */
+HSK.mountVocabGame('#vocab-game', [
+  {hanzi:'就',     pinyin:'jiù',      mean:'chính là; đúng là (exactly; precisely)'},
+  {hanzi:'给',     pinyin:'gěi',      mean:'cho; với — giới từ chỉ đối tượng nhận hành động (to; for)'},
+  {hanzi:'让',     pinyin:'ràng',     mean:'để cho; cho phép (let; allow)'},
+  {hanzi:'接',     pinyin:'jiē',      mean:'đón; tiếp đón (meet; welcome; receive)'},
+  {hanzi:'次',     pinyin:'cì',       mean:'lần — lượng từ chỉ số lần (time; occurrence)'},
+  {hanzi:'旅游',   pinyin:'lǚyóu',    mean:'du lịch (travel; make a tour)'},
+  {hanzi:'帮忙',   pinyin:'bāngmáng', mean:'giúp đỡ (help)'},
+  {hanzi:'不好意思', pinyin:'bù hǎoyìsi', mean:'ngại; xấu hổ khi làm gì đó (find it embarrassing to do sth)'},
+  {hanzi:'已经',   pinyin:'yǐjīng',   mean:'đã; rồi (already)'},
+  {hanzi:'那',     pinyin:'nà',       mean:'vậy thì; thế thì (then)'},
+  {hanzi:'介绍',   pinyin:'jièshào',  mean:'giới thiệu (introduce)'},
+  {hanzi:'有时',   pinyin:'yǒushí',   mean:'thỉnh thoảng; đôi khi (sometimes)'},
+  {hanzi:'懂',     pinyin:'dǒng',     mean:'hiểu (understand; know)'},
+  {hanzi:'意思',   pinyin:'yìsi',     mean:'ý nghĩa; ý (meaning; idea)'},
+  {hanzi:'北京烤鸭', pinyin:'Běijīng Kǎoyā', mean:'Vịt quay Bắc Kinh (Peking Duck)'}
+], {lessonId:'bai1'});
 </script>
 </body>
 </html>
