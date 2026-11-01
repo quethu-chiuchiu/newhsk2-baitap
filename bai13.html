@@ -369,9 +369,7 @@ window.HSK_PAGE.writingP1 = quizW1;
 window.HSK_PAGE.writingP2 = quizW2;
 
 /* ---------------- VOCAB GAME ---------------- */
-HSK.mountVocabGame('#vocab-game', {
-  lessonId: 'bai13',
-  words: [
+HSK.mountVocabGame('#vocab-game', [
     { hanzi:"新年", pinyin:"xīnnián", mean:"năm mới (New Year)" },
     { hanzi:"教", pinyin:"jiāo", mean:"dạy (teach)" },
     { hanzi:"花", pinyin:"huā", mean:"hoa (flower)" },
@@ -385,8 +383,7 @@ HSK.mountVocabGame('#vocab-game', {
     { hanzi:"那样", pinyin:"nàyàng", mean:"như thế, như vậy (so that)" },
     { hanzi:"告诉", pinyin:"gàosu", mean:"nói cho biết, kể (tell)" },
     { hanzi:"班", pinyin:"bān", mean:"lớp (class)" }
-  ]
-});
+], {lessonId:'bai13'});
 </script>
 </body>
 </html>

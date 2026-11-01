@@ -369,9 +369,7 @@ window.HSK_PAGE.writingP1 = quizW1;
 window.HSK_PAGE.writingP2 = quizW2;
 
 /* ---------------- VOCAB GAME ---------------- */
-HSK.mountVocabGame('#vocab-game', {
-  lessonId: 'bai15',
-  words: [
+HSK.mountVocabGame('#vocab-game', [
     { hanzi:"姓名", pinyin:"xìngmíng", mean:"họ tên (name)" },
     { hanzi:"出国", pinyin:"chūguó", mean:"xuất ngoại, ra nước ngoài (go abroad)" },
     { hanzi:"门票", pinyin:"ménpiào", mean:"vé vào cửa (entrance ticket)" },
@@ -383,8 +381,7 @@ HSK.mountVocabGame('#vocab-game', {
     { hanzi:"飞", pinyin:"fēi", mean:"bay (fly)" },
     { hanzi:"好像", pinyin:"hǎoxiàng", mean:"hình như, giống như (be like)" },
     { hanzi:"鸟", pinyin:"niǎo", mean:"chim (bird)" }
-  ]
-});
+], {lessonId:'bai15'});
 </script>
 </body>
 </html>

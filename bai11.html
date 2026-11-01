@@ -369,9 +369,7 @@ window.HSK_PAGE.writingP1 = quizW1;
 window.HSK_PAGE.writingP2 = quizW2;
 
 /* ---------------- VOCAB GAME ---------------- */
-HSK.mountVocabGame('#vocab-game', {
-  lessonId: 'bai11',
-  words: [
+HSK.mountVocabGame('#vocab-game', [
     { hanzi:"头", pinyin:"tóu", mean:"đầu (head)" },
     { hanzi:"疼", pinyin:"téng", mean:"đau (hurt)" },
     { hanzi:"经常", pinyin:"jīngcháng", mean:"thường xuyên (frequently; often)" },
@@ -385,8 +383,7 @@ HSK.mountVocabGame('#vocab-game', {
     { hanzi:"时", pinyin:"shí", mean:"lúc, thời điểm (a period of time)" },
     { hanzi:"最", pinyin:"zuì", mean:"nhất (most)" },
     { hanzi:"药店", pinyin:"yàodiàn", mean:"hiệu thuốc (pharmacy)" }
-  ]
-});
+], {lessonId:'bai11'});
 </script>
 </body>
 </html>
